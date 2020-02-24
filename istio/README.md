@@ -46,7 +46,7 @@ If the number is less, you may need to wait a few moments for the resources to f
 Install the Helm chart for Istio. There are [many installation options available](https://istio.io/docs/reference/config/installation-options/) for Istio. For this guide, the command enables Grafana, which you will use later to visualize your cluster’s data.
 
 ```sh
-$ helm install istio istio.io/istio --set grafana.enabled=true
+$ helm install istio istio/istio --set grafana.enabled=true
 NAME: istio
 LAST DEPLOYED: Fri Feb 21 22:36:34 2020
 NAMESPACE: default
